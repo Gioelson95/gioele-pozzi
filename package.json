@@ -1,6 +1,6 @@
 {
 	"title": "Resume",
-	"name": "startbootstrap-resume",
+	"name": "gioele-pozzi",
 	"version": "4.0.0",
 	"description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
 	"keywords": [
@@ -23,7 +23,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
+		"url": "https://github.com/Gioelson95/gioele-pozzi.git"
 	},
 	"dependencies": {
 		"bootstrap": "^4.0.0",
@@ -53,5 +53,5 @@
 	"scripts": {
 		"start": "node ./server.js"
 	},
-	"main": "gulpfile.js"
+	"main": "server.js"
 }
