@@ -23,7 +23,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+		"url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
 	},
 	"dependencies": {
 		"bootstrap": "^4.0.0",
@@ -42,9 +42,16 @@
 		"gulp-rename": "^1.2.2",
 		"gulp-sass": "^3.1.0",
 		"gulp-uglify": "3.0.0",
-		"localhost": "^0.2.3"
+		"localhost": "^0.2.3",
+		"body-parser": "1.17.1",
+		"express": "4.15.2",
+		"knex": "^0.13.0",
+		"lodash": "4.17.4",
+		"pg": "6.4.0",
+		"sqlite3": "^3.1.8"
 	},
 	"scripts": {
-		"start": "node server.js"
-	}
+		"start": "node ./server.js"
+	},
+	"main": "gulpfile.js"
 }
